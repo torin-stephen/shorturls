@@ -11,8 +11,7 @@ app.use(express.json());
 // Define Routes
 app.use('/', require('./routes/index'));
 app.use('/api/url', require('./routes/url'));
-app.use('/docs', require('./routes/docs'));
 
-const PORT = 5000;
+const PORT = 80;
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
