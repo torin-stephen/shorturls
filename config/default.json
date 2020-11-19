@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://admin:5hyq82M04fcCSOJp@cluster0.sbizr.mongodb.net/shorturl?retryWrites=true&w=majority",
+    "baseUrl": "http://ovre.tk"
+}
