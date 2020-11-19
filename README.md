@@ -6,8 +6,9 @@ Hi! You are probably me, and forgot how to use your own api, but don't worry I w
 # URL
 
 Ovre requires a **application/json** post request to _http://ovre.tk/api/url/shorten_ with the json as 
+```json
 { "longUrl": "https://url.here" }
-
+```
 ## Return
 
 The api will return json looking like this:
