@@ -16,6 +16,10 @@ router.post('/shorten', async (req, res) => {
     if (!validUrl.isUri(baseUrl)) {
         return res.status(401).json('Invalid base url');
     }
+    
+    if (longUrl.includes('ovre.tk')) {
+        return res.status(401).json('longUrl cannot be ovre.tk');
+    };
 
     // Create url code
     const urlCode = shortid.generate();
