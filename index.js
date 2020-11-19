@@ -11,6 +11,7 @@ app.use(express.json());
 // Define Routes
 app.use('/', require('./routes/index'));
 app.use('/api/url', require('./routes/url'));
+app.use('/shorten', require('./routes/shorten'));
 
 const PORT = 80;
 
